@@ -2,9 +2,82 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
-.section-mine {
-  max-width: 1000px;
+.wrapper{
+  display: flex;
+  align-content: space-around;
+  max-width: 1260px;
+  height: 766px;
+  background: url(/img/bg-mein.png) no-repeat center;
   margin: auto;
 }
+.section-mein {
+  min-width: 942px;
+  margin: 0 auto;
+}
+.heder{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 130px;
+}
+.heder__menu{
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+width: 430px;
+}
+span.menu-btn{
+  display: flex;
+  color: white;
+  font-family: 'PF Encore Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+span.menu-btn:hover{
+  cursor: pointer;
+  color: #fc635e;
+  border-bottom: solid 4px #fc635e;
+  margin-bottom: -4px;
+}
+.main-text{
+  display: flex;
+  flex-direction: column;
+  margin-top: 143px;
+}
+.wrap{
+  display: flex;
+  align-items: center;
+}
+.main-text-top{
+  color: #fff;
+  font-size: 51px;
+  font-family: 'PF Encore Sans Pro', sans-serif;
+  font-weight: bold;
+}
+.strip-right{
+  width: 107px;
+  height: 8px;
+  background-color: #4f4d4d;
+  margin: 0 10px;
+}
+.strip-left{
+  width: 107px;
+  height: 8px;
+  background-color: #7d7c7a;
+  margin: 0 10px;
+}
+.main-text-top>span{
+  color: #fc635e;
+}
+p{
+  color: #fff;
+  font-size: 24px;
+  font-family: 'PF Encore Sans Pro', sans-serif;
+  margin: 12px auto;
+}
+
 /*# sourceMappingURL=style.css.map */
