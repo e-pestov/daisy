@@ -1,83 +1,143 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-.wrapper{
+
+p,
+span.menu-btn,
+.main-text-top,
+.want {
+  font-family: 'PF Encore Sans Pro', sans-serif;
+}
+
+.wrapper {
   display: flex;
-  align-content: space-around;
+  flex-direction: column;
   max-width: 1260px;
-  height: 766px;
-  background: url(/img/bg-mein.png) no-repeat center;
+  height: 765px;
+  background: url(../img/bg-mein.png) no-repeat center;
   margin: auto;
 }
+
 .section-mein {
   min-width: 942px;
   margin: 0 auto;
+  align-content: space-around;
 }
-.heder{
+
+.heder {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 130px;
 }
-.heder__menu{
+
+.heder__menu {
   display: flex;
   justify-content: space-between;
   align-content: space-between;
 }
-.navbar{
-display: flex;
-justify-content: space-between;
-width: 430px;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 430px;
 }
-span.menu-btn{
+
+span.menu-btn {
   display: flex;
   color: white;
-  font-family: 'PF Encore Sans Pro', sans-serif;
   font-size: 16px;
   line-height: 22px;
 }
-span.menu-btn:hover{
+
+span.menu-btn:hover {
   cursor: pointer;
   color: #fc635e;
   border-bottom: solid 4px #fc635e;
   margin-bottom: -4px;
 }
-.main-text{
+
+.main-text {
   display: flex;
+  justify-content: flex-end;
   flex-direction: column;
-  margin-top: 143px;
+  min-height: 252px;
 }
-.wrap{
+
+.wrap {
   display: flex;
   align-items: center;
 }
-.main-text-top{
+
+.main-text-top {
   color: #fff;
   font-size: 51px;
-  font-family: 'PF Encore Sans Pro', sans-serif;
   font-weight: bold;
 }
-.strip-right{
+
+.strip-right {
   width: 107px;
   height: 8px;
   background-color: #4f4d4d;
   margin: 0 10px;
 }
-.strip-left{
+
+.strip-left {
   width: 107px;
   height: 8px;
   background-color: #7d7c7a;
   margin: 0 10px;
 }
-.main-text-top>span{
+
+.main-text-top>span {
   color: #fc635e;
 }
-p{
+
+p {
   color: #fff;
   font-size: 24px;
-  font-family: 'PF Encore Sans Pro', sans-serif;
   margin: 12px auto;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: center;
+  height: 384px;
+  margin-left: 110px;
+}
+
+.btn-slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  align-items: center
+}
+
+.want {
+  width: 205px;
+  height: 56px;
+  background: none;
+  border: solid #cc615d 3px;
+  border-radius: 8px;
+  color: #cc615d;
+  font-size: 24px;
+  margin-top: 49px;
+  margin-right: 9px;
+  outline: none;
+  cursor: pointer;
+}
+
+.mause {
+  margin-top: 61px;
+}
+
+.slider>img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
